@@ -45,8 +45,8 @@ display: none;
   }
 }
 .submitButton {
-  background: rgb(130, 192, 22);
-  background: linear-gradient(90deg, rgba(130, 192, 22, 1) 0%, rgba(30, 30, 30, 1) 40%, rgba(30, 30, 30, 1) 60%, rgba(130, 192, 22, 1) 100%);
+  background: rgb(119, 185, 1);
+  background: linear-gradient(90deg, rgba(119, 185, 1, 1) 0%, rgba(30, 30, 30, 1) 40%, rgba(30, 30, 30, 1) 60%, rgba(119, 185, 1, 1) 100%);
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -60,5 +60,6 @@ display: none;
 }
 
 .submitButton:hover {
-  background: rgb(130, 192, 22); /* Maintain the background color on hover */
+  background: #000; /* Background turns black on hover */
+  color: #77b901; /* Text color becomes #77b901 on hover */
 }
