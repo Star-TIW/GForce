@@ -25,20 +25,20 @@ html {
 }
 .lds-dual-ring {
   display: none;
-  width: 50%;
-  height: 50%;
+  width: 70vw;
+  height: 70vw;
 }
 
 .lds-dual-ring:after {
   content: " ";
   display: block;
-  width: 50%;
-  height: 50%;
+  width: 70vw;
+  height: 70vw;
   margin: none;
-  top: 75%;
+  top: 50vh;
   left: 50%;
   border-radius: 50%;
-  border: 15% solid #77b901;
+  border: 20px solid #77b901;
   border-color: #77b901 transparent #77b901 transparent;
   animation: lds-dual-ring 1.2s linear infinite;
 }
@@ -78,7 +78,4 @@ html {
 .submitButton:hover {
   background: #000;
   color: #77b901;
-}
-.submitButton:click {
-display: none;
 }
