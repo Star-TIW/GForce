@@ -20,8 +20,6 @@ display: none;
   padding: 0;
   z-index: 99;
 }
-.lds-dual-ring {
-  dis/* CSS for the overlay */
 .overlay {
   position: fixed;
   top: 0;
