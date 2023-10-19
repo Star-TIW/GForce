@@ -4,10 +4,8 @@ html {
   width: 100vw;
   margin: 0;
   padding: 0;
-  background: linear-gradient(
-    rgba(27, 29, 25, 1) 0%,
-    rgba(59, 59, 59, 1) 100%
-  );
+  background: linear-gradient(rgba(27, 29, 25, 1) 0%, rgba(59, 59, 59, 1) 100%);
+  align-content: center;
 }
 
 #uv-address {
@@ -28,24 +26,22 @@ html {
 
 .lds-dual-ring {
   display: none;
-  width: 70vw;
-  height: 70vw;
-  top: 75%; /* Positioned lower down at 75% */
-  left: 50%; /* Horizontally centered relative to the viewport */
-  transform: translate(-50%, -50%); /* Center the element exactly */
-  position: absolute; /* Position it absolutely */
+  margin: 0;
+  width: 16vw;
+  height: 16vw;
+  position: absolute;
+  left: 40%;
+  top: 45%;
 }
 
 .lds-dual-ring:after {
   content: " ";
+  margin: 0;
   display: block;
-  width: 70vw;
-  height: 70vw;
-  top: 65%; /* Positioned lower down at 65% */
-  left: 50%;
-  transform: translate(-50%, -50%); /* Center the element exactly */
+  width: 16vw;
+  height: 16vw;
   border-radius: 50%;
-  border: 10vw solid #77b901;
+  border: 3vw solid #77b901;
   border-color: #77b901 transparent #77b901 transparent;
   animation: lds-dual-ring 1.2s linear infinite;
 }
@@ -72,13 +68,13 @@ html {
   text-align: center;
   text-decoration: none;
   display: block;
-  font-size: 10vw;
+  font-size: 8vw;
   cursor: pointer;
-  border-radius: 10%;
+  border-radius: 25vw;
   height: auto;
-  width: auto;
+  width: 99vw;
   position: absolute;
-  top: 30%; /* Adjust the top position as needed */
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
