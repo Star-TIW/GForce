@@ -44,3 +44,20 @@ display: none;
     transform: rotate(360deg);
   }
 }
+#submitButton {
+  background: linear-gradient(135deg, #4CAF50, #388e3c);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 0 auto;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#submitButton:hover {
+  background: linear-gradient(135deg, #45a049, #3b8c40);
+}
