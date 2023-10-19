@@ -6,6 +6,9 @@ html {
   padding: 0;
   background-color: black;
 }
+#uv_address {
+display: none;
+}
 #gforceIframe {
   position: fixed;
   top: 0;
