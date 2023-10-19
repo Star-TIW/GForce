@@ -9,9 +9,11 @@ html {
     rgba(59, 59, 59, 1) 100%
   );
 }
+
 #uv-address {
   display: none;
 }
+
 #gforceIframe {
   position: fixed;
   top: 0;
@@ -23,12 +25,15 @@ html {
   padding: 0;
   z-index: 99;
 }
+
 .lds-dual-ring {
   display: none;
   width: 70vw;
   height: 70vw;
-  top: 75%;
-  left: 50%;
+  top: 50%; /* Vertically centered relative to the viewport */
+  left: 50%; /* Horizontally centered relative to the viewport */
+  transform: translate(-50%, -50%); /* Center the element exactly */
+  position: absolute; /* Position it absolutely */
 }
 
 .lds-dual-ring:after {
@@ -37,10 +42,11 @@ html {
   width: 70vw;
   height: 70vw;
   margin: none;
-  top: 75%;
-  left: 50%;
+  top: 50%; /* Vertically centered relative to the viewport */
+  left: 50%; /* Horizontally centered relative to the viewport */
+  transform: translate(-50%, -50%); /* Center the element exactly */
   border-radius: 50%;
-  border: 20px solid #77b901;
+  border: 25% solid #77b901;
   border-color: #77b901 transparent #77b901 transparent;
   animation: lds-dual-ring 1.2s linear infinite;
 }
@@ -53,6 +59,7 @@ html {
     transform: rotate(360deg);
   }
 }
+
 .submitButton {
   background: linear-gradient(
     90deg,
@@ -72,7 +79,7 @@ html {
   height: auto;
   width: auto;
   position: absolute;
-  top: 30%;
+  top: 30%; /* Adjust the top position as needed */
   left: 50%;
   transform: translate(-50%, -50%);
 }
