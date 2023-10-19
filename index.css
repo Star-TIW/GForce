@@ -29,11 +29,11 @@ display: none;
 .lds-dual-ring:after {
   content: " ";
   display: block;
-  width: 64px;
-  height: 64px;
-  margin: 8px;
+  width: 50vw;
+  height: 50vh;
+  margin: 8vh;
   border-radius: 50%;
-  border: 8px solid #77b901;
+  border: 15px solid #77b901;
   border-color: #77b901 transparent #77b901 transparent;
   animation: lds-dual-ring 1.2s linear infinite;
 }
@@ -59,6 +59,8 @@ display: none;
   margin: 0 auto;
   cursor: pointer;
   border-radius: 4px;
+  height: 50vh;
+  width:50vw;
 }
 
 .submitButton:hover {
