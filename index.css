@@ -4,7 +4,8 @@ html {
   width: 100vw;
   margin: 0;
   padding: 0;
-  background-color: black;
+  background: rgb(27, 29, 25);
+  background: linear-gradient(middle to bottom, rgba(27, 29, 25, 1) 0%, rgba(27, 29, 25, 1) 50%, rgba(59, 59, 59, 1) 100%);
 }
 #uv-address {
 display: none;
