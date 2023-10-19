@@ -23,6 +23,15 @@
     <input id="uv-search-engine" autocomplete="off" value="https://www.google.com/search?q=%s" type="hidden" />
     <input id="uv-address" type="text" autocomplete="off" placeholder="Enter URL" value="https://play.geforcenow.com" readonly />
     <button class="submitButton" type="submit">Open GeForce Now</button>
-</form>    
+</form>
+<div class="lds-dual-ring"></div>
 </body>
+    <script>
+        const submitButton = document.querySelector(".submitButton");
+const spinner = document.querySelector(".lds-dual-ring");
+
+submitButton.addEventListener("click", function () {
+  spinner.style.display = "inline-block";
+});
+    </script>
 </html>
