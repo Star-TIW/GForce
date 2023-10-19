@@ -27,6 +27,8 @@ html {
   display: none;
   width: 70vw;
   height: 70vw;
+  top: 75%;
+  left: 50%;
 }
 
 .lds-dual-ring:after {
@@ -35,7 +37,7 @@ html {
   width: 70vw;
   height: 70vw;
   margin: none;
-  top: 50vh;
+  top: 75%;
   left: 50%;
   border-radius: 50%;
   border: 20px solid #77b901;
