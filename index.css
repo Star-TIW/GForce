@@ -50,17 +50,19 @@ display: none;
   background: rgb(119, 185, 1);
   background: linear-gradient(90deg, rgba(119, 185, 1, 1) 0%, rgba(30, 30, 30, 1) 40%, rgba(30, 30, 30, 1) 60%, rgba(119, 185, 1, 1) 100%);
   color: #fff;
-  border: none;
-  padding: 10px 20px;
+  border: 3px solid #000;
   text-align: center;
   text-decoration: none;
   display: block;
-  font-size: 16px;
-  margin: 0 auto;
+  font-size: 10vw;
   cursor: pointer;
   border-radius: 8px;
-  height: 60vw;
-  width:50vw;
+  height: auto;
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .submitButton:hover {
