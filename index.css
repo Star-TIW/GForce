@@ -45,7 +45,8 @@ display: none;
   }
 }
 .submitButton {
-  background: linear-gradient(135deg, #4CAF50, #388e3c);
+  background: rgb(130, 192, 22);
+  background: linear-gradient(90deg, rgba(130, 192, 22, 1) 0%, rgba(30, 30, 30, 1) 40%, rgba(30, 30, 30, 1) 60%, rgba(130, 192, 22, 1) 100%);
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -59,5 +60,5 @@ display: none;
 }
 
 .submitButton:hover {
-  background: linear-gradient(135deg, #45a049, #3b8c40);
+  background: rgb(130, 192, 22); /* Maintain the background color on hover */
 }
